@@ -40,3 +40,26 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+// Preloader
+$(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(200).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
+
+// Tooltip JS
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip( {
+        placement:'top',
+        title:"<p> A Scribe does Virtual Medical Documentation & Live Clinical Support from anywhere in the world</p>",
+        animation:true,
+        delay: {"show": 250, "hide":350},
+        html:true
+        
+
+    });
+
+});
