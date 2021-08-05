@@ -10238,3 +10238,26 @@ section.resume-section .resume-section-content {
   width: 100%;
   height: 100%;
 }
+/* Inconfont-CSS STyle */
+.icofont-phone, .icofont-envelope, .icofont-google-map{
+  background-color:  #4076a3;
+  font-family: IcoFont, Bangla879, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.icofont-phone:hover, .icofont-envelope:hover, .icofont-google-map:hover{
+  
+  background-color: #092949;
+  
+  
+}
+
+/* Copyright mobile device visibility none CSS */
+@media screen and (max-width: 600px){
+  .copyright{
+    visibility: hidden;
+  }
+}
