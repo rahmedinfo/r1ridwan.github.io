@@ -10257,7 +10257,7 @@ section.resume-section .resume-section-content {
 
 /* Copyright mobile device visibility none CSS */
 @media screen and (max-width: 600px){
-  .copyright{
+  .footercopy{
     visibility: hidden;
   }
 }
