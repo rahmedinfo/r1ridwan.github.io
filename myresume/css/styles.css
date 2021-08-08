@@ -10264,7 +10264,7 @@ section.resume-section .resume-section-content {
 /* Name Responsive CSS */
 @media screen and (max-width: 500px){
   .myname{
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 40px;
+    padding-top: 50px;
   }
 }
