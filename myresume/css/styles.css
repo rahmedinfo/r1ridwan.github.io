@@ -10261,3 +10261,10 @@ section.resume-section .resume-section-content {
     visibility: hidden;
   }
 }
+/* Name Responsive CSS */
+@media screen and (max-width: 600px){
+  .myname{
+    font-size: 30px;
+    padding-top: 20px;
+  }
+}
