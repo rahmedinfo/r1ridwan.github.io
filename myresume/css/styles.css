@@ -10256,13 +10256,13 @@ section.resume-section .resume-section-content {
 }
 
 /* Copyright mobile device visibility none CSS */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 992px){
   .footercopy{
     visibility: hidden;
   }
 }
 /* Name Responsive CSS */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   .myname{
     font-size: 30px;
     padding-top: 30px;
