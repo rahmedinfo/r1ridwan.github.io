@@ -10268,3 +10268,10 @@ section.resume-section .resume-section-content {
     padding-top: 50px;
   }
 }
+
+/* Tab Css */
+.project-info{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
