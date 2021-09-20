@@ -1,0 +1,349 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: "Work Sans", Bangla699, sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+.main-section-bg{
+	background-color: #f7f9ff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right: 1.5rem;
+}
+/* jon-header */
+.jon-header .navbar-brand{
+    font-size: 25.6px;
+    font-weight: 500;
+}
+.jon-header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 43px;
+	width: 40px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 28px;
+	position: relative;
+	top: 3px;
+}
+.jon-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/*slider-section**/
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 150px 0 ;
+	position: relative;
+	z-index: 1;
+}
+.slider-caption::after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+.slider-caption h4{
+	margin-bottom: 35px;
+}
+
+.slider-caption h2{
+	font-size: 46px;
+    margin-bottom: 50px;
+}
+.slider-caption .form-control{
+	padding: 16px 20px;
+}
+.slider-caption .btn{
+	background-color: #5ba533;
+    border-color: #5ba533;
+    color: #ffffff;
+    padding: 9px 30px;
+    font-size: 30px;
+}
+.slider-caption .btn:hover{
+	box-shadow:rgba(0, 0, 255, 0.452) ;
+	background: white;
+	color: #6278df;
+	border: 2px;
+	border-color: #5ba533;
+}
+
+/* Counter Number Item */
+.counter-number-item .h2{
+	font-size: 3.6rem;
+	font-weight: 500;
+	line-height: 1.1;
+}
+.counter-number-item .text-muted{
+	font-size: 18px;
+}
+
+/* About SEction */
+.about-section{
+	background: #f7f9ff;
+}
+.about-text-left{
+	margin-top: 110px;
+}
+.about-text-left .lead{
+	font-size: 18px;
+	line-height: 2rem;
+}
+
+/* Feature Item */
+.feature-item{
+	height: 250px;
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.left-img-sec{
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.left-text-sec{
+	width: 60%;
+	padding: 17px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.feature-section .featureheading{
+	font-size: 45px;
+}
+
+.feature-section .featuretext {
+    font-size: 25px;
+    color: #767676;
+    font-weight: 100;
+	padding-bottom: 1.5rem;
+}
+
+.left-text-sec p {
+    color: #767676cf;
+}
+.left-text-sec h4 {
+    font-size: 1.3rem;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+/* Portfolio Section CSS */
+.portfolio-section .portfolioheading{
+	font-size: 45px;
+}
+.portfolio-item{
+
+}
+.portfolio-item a{
+	position: relative;
+	display: block;
+}
+.portfolio-item a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(98, 120, 223, .7);
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+
+}
+.portfolio-item:hover a::after{
+	opacity: 1;
+	visibility: visible;
+}
+/* Pricing Table CSS */
+
+.pricing-item{
+	background-color: white;
+	padding: 42px;
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, 0.2);
+	border-radius: 5px;
+
+}
+.pricing-item h1{}
+.pricing-item h5{
+	margin-bottom: 40px;
+}
+.pricing-item ul{
+	list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.pricing-item ul li{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+	color: #777
+    
+}
+.pricing-item ul li span{
+	color: #6278df;
+    font-weight: bold;
+    font-size: 27px;
+    width: 27px;
+    width: 26px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.pricing-teble-button{}
+.pricing-teble-button a{
+	border:none;
+	color:#657be0;
+	padding: 15px 80px;
+	font-size: 22px;
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+/* Testimonial SEctions CSS */
+.author-info{
+	width: 182px;
+    margin: auto;
+}
+.author-info img{
+	width: 70px;
+    margin-right: 15px;
+}
+.user-details{
+	text-align: left;
+    position: relative;
+    top: 15px;
+}
+.user-details p{
+	margin-top: -5px;
+}
+.testimonial-item span{
+	font-size: 5.5rem;
+    color: #cccccc;
+    opacity: 0.3;
+}
+
+
+/* About Section CSS */
+
+.about-section-heading{
+	font-size: 2.8rem;
+    line-height: 1.4;
+}
+.about-item{
+	margin-top: 120px;
+}
+.about-item .card{}
+.about-item .card img{
+	width: 140px;
+    height: auto;
+    margin-top: -77px;
+    margin-left: 15px;
+}
+
+
+/* Contact Section CSS */
+.contact-section .card{
+	box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, 0.2);
+	padding: 40px;
+	border-radius: 3px;
+}
+.contact-section .card button{
+	padding: 13px 50px;
+}
+.contact-section .card .card-body button{
+	font-weight: bold;
+}
+.contact-section .card .card-body button:hover{
+	background: white;
+    color: #6278df;
+    font-weight: bold;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* Before Footer Section CSS */
+.before-footer-section{
+	margin-top: 120px;
+}
+.button-section a{
+	margin-right: 10px;
+}
+.button-section .butn-1{
+	background: white;
+    color: #5ba533;
+    font-size: 27px;
+    padding: 15px 25px;
+	border:2px solid #5ba533;
+	font-weight: bold;
+	border-radius: 6px;
+	box-shadow: none;
+	
+}
+.button-section .butn-1:hover{
+	background:#5ba533 ;
+	color: white;
+	transition: .5s all;
+}
+.button-section .butn-2{
+	background: #5ba533;
+    color: white;
+    font-size: 25px;
+    padding: 15px 20px;
+	border:2px solid #5ba533;
+	font-weight: bold;
+	border-radius: 6px;
+	
+}
+.button-section .butn-2:hover{
+	background:black ;
+	transition: .5s all;
+	box-shadow: none;
+}
+.button-section a{
+	box-shadow:0px 6px 15px #5ba533;
+}
+.before-footer-section img{
+	width:650px;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+/* Responsive CSS */
+
+@media (max-width:992px) {
+	.about-text-left {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width:992px){
+	.pricing-teble-button a {
+		border: none;
+		color: #657be0;
+		padding: 15px 40px;
+		font-size: 22px;
+		box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+	}
+	.pricingitem-1{
+		padding-bottom: 67px;
+	}
+	
+	
+}
+@media (max-width:768px){
+	.pricing-item{
+		margin-bottom: 20px;
+	}
+}
