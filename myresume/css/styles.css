@@ -2478,35 +2478,35 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-    background-color: #3fca89;
-    border-color: #3fca89;
+    background-color: #092949;
+    border-color: #092949;
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #3fca89;
-  border-color: #3fca89;
+  background-color: #092949;
+  border-color: #092949;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #3fca89;
-  border-color: #964a2c;
-  box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
+  background-color: #092949;
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #3fca89;
-  border-color: #3fca89;
+  background-color: #092949;
+  border-color: #092949;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3fca89;
-  border-color: #3fca89;
+  background-color: #092949;
+  border-color: #092949;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(9, 3, 58, 0.5);
 }
 
 .btn-secondary {
@@ -4392,11 +4392,13 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding: 1rem;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+    font-size: 25px;
+    font-family: monospace;
 }
 
 .card-subtitle {
@@ -10275,5 +10277,18 @@ section.resume-section .resume-section-content {
   font-size: 20px;
   border-radius: 5px;
 }
-
- 
+.coursebtn{
+  padding: 9px;
+    background: white;
+    font-size: 19px;
+    border: solid 2px ;
+    border-color: #092949;
+    color: black;
+    
+}
+.coursebtn:hover{
+  background: #092949;
+  color: white;
+  border-color: #092949;
+  transition: 0.3;
+}
