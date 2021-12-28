@@ -10292,3 +10292,10 @@ section.resume-section .resume-section-content {
   border-color: #092949;
   transition: 0.3;
 }
+/* REsearch experience css*/
+.researchexp{
+  padding: 9px;
+  line-height: 5px;
+  background-color: #092949  ;
+  color: white;
+}
