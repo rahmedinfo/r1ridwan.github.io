@@ -10299,7 +10299,7 @@ section.resume-section .resume-section-content {
   background-color: #092949 !important ;
   color: white;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 660px){
   .researchexp{
     line-height: 18px;
   }
