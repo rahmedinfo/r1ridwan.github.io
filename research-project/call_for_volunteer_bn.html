@@ -279,18 +279,95 @@
               <div class="validate"></div>
             </div>
 
-            <div class="row mt-3">
-              <p style="text-align: justify;"> <strong>আপনার প্রতিদিনের খাদ্যাভ্যাস (আপনি সকালের নাস্তায় , দুপুরে, এং রাতে কি ধরনের খাবার সবচেয়ে বেশি খেয়ে থাকেন)?</strong></p>
-              <div class="col-md-4 form-group">
-                <input type="text" name="Breakfast" class="form-control" id="name" placeholder="সকালের নাস্তা" required>
+            <div class="form-group mt-3">
+              <h5 style="text-align: justify;"> <strong>আপনার প্রতিদিনের খাদ্যাভ্যাস (আপনি সকালের নাস্তায় , দুপুরে, এং রাতে 
+                কি ধরনের খাবার সবচেয়ে বেশি খেয়ে থাকেন)? <i class="text-info">(একাধিক অপশন পছন্দ করা যাবে)</i></strong></h5> 
+                <p> <mark>সকালের নাস্তায় কি খাবার থাকে?</mark> </p>               
+                <select name="সকালের নাস্তায় কি খাবার থাকে" required id="service"  style="display: block;
+                width: 100%;
+                height: calc(2em + .75rem + 2px);
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                 class="form-select" multiple size="3" aria-label=" select example">
+                  <option value="ভাত">ভাত </option> 
+                  <option value="রুটি">রুটি</option>               
+                  <option value="খিচুড়ি">খিচুড়ি</option>               
+                  <option value="পাউরুটি">পাউরুটি</option>               
+                  <option value="মাছ">মাছ</option>               
+                  <option value="মাংস">মাংস</option>               
+                  <option value="মাংস">চিকেন</option>               
+                  <option value="শাক-সবজি">শাক-সবজি</option>
+                  <option value="ডাল">ডাল</option>               
+                 </select>
+                <div class="validate"></div>
               </div>
-              <div class="col-md-4 form-group">
-                <input type="text" class="form-control" name="Launch" id="name" placeholder="দুপুরের খাবার" required>
-              </div>
-              <div class="col-md-4 form-group">
-                <input type="text" class="form-control" name="Dinner" id="name" placeholder="রাতের খাবার" required>
-              </div>
-            </div>
+
+              <div class="form-group mt-3">
+                <p><mark>দুপুরে কি খাবার থাকে?</mark></p>               
+                  <select name="দুপুরে কি খাবার থাকে?" required id="service"  style="display: block;
+                  width: 100%;
+                  height: calc(2em + .75rem + 2px);
+                  padding: .375rem .75rem;
+                  font-size: 1rem;
+                  font-weight: 400;
+                  line-height: 1.5;
+                  color: #495057;
+                  background-color: #fff;
+                  background-clip: padding-box;
+                  border: 1px solid #ced4da;
+                  border-radius: .25rem;
+                  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                   class="form-select" multiple size="3" aria-label=" select example">
+                    <option value="ভাত">ভাত </option> 
+                    <option value="রুটি">রুটি</option>               
+                    <option value="খিচুড়ি">খিচুড়ি</option>               
+                    <option value="পাউরুটি">পাউরুটি</option>               
+                    <option value="মাছ">মাছ</option>               
+                    <option value="মাংস">মাংস</option>               
+                    <option value="মাংস">চিকেন</option>               
+                    <option value="শাক-সবজি">শাক-সবজি</option>
+                    <option value="ডাল">ডাল</option>               
+                   </select>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="form-group mt-3">
+                  <p ><mark>রাতে কি খাবার থাকে?</mark></p>               
+                    <select name="রাতে কি খাবার থাকে?" required id="service"  style="display: block;
+                    width: 100%;
+                    height: calc(2em + .75rem + 2px);
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #495057;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    border-radius: .25rem;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                     class="form-select" multiple size="3" aria-label=" select example">
+                      <option value="ভাত">ভাত </option> 
+                      <option value="রুটি">রুটি</option>               
+                      <option value="খিচুড়ি">খিচুড়ি</option>               
+                      <option value="পাউরুটি">পাউরুটি</option>               
+                      <option value="মাছ">মাছ</option>               
+                      <option value="মাংস">মাংস</option>               
+                      <option value="মাংস">চিকেন</option>               
+                      <option value="শাক-সবজি">শাক-সবজি</option>
+                      <option value="ডাল">ডাল</option>               
+                     </select>
+                    <div class="validate"></div>
+                  </div>
+            
 
             <div class="mt-3 form-group">
               <select name="What kind of food is more in your daily diet? " id="service" required style="display: block;
@@ -435,6 +512,7 @@
               <option value="Constipation">Constipation</option>
               <option value="Hemorrhoids">Hemorrhoids</option>
               <option value="	Diverticular Disease">	Diverticular Disease</option>
+              <option value="	Diverticular Disease">None</option>
             </select>
             <div class="validate"></div>
           </div>
