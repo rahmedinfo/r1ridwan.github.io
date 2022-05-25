@@ -78,7 +78,7 @@
       <h6><strong>Project name:</strong> Investigating the impacts of squatting on gut microflora and colorectal cancer </h6> <br>
       <h5><strong>Data Collection Form</strong> </h5>
       <div class="row ">
-        <div class="col-md-6 mt-5 mt-lg-0 mx-auto">
+        <div class="col-md-8 mt-5 mt-lg-0 mx-auto">
           <form action="https://formspree.io/f/xqknybrg" method="post" role="form" class="text-center"
           style="padding: 10px; border-radius: 5px;">
             
@@ -134,6 +134,8 @@
             </div>
 
             <div class="mt-3 form-group">
+              <p style="text-align: justify;">
+                <strong>Your Sex</strong></p>
               <select name="Sex" id="service" required style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -147,7 +149,7 @@
               border: 1px solid #ced4da;
               border-radius: .25rem;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                <option value="">Your Sex</option>
+                <option value="">Select</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female </option> 
                </select>
@@ -156,6 +158,8 @@
            
 
            <div class=" mt-3 form-group">
+            <p style="text-align: justify;">
+              <strong>What is your ethnicity?</strong></p>
             <select name="What is your ethnicity?" id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -169,7 +173,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">What is your ethnicity?</option>
+              <option value="">Select</option>
               <option value="Bengali">Bengali</option> 
               <option value="Marma">Marma</option>               
               <option value="Chakma">Chakma</option>
@@ -185,6 +189,8 @@
           </div>
 
           <div class="mt-3 form-group">
+            <p style="text-align: justify;">
+              <strong>What type of toilet you use?</strong></p>
             <select name="What type of toilet you use?" id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -198,7 +204,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">What type of toilet you use?</option>
+              <option value="">Select</option>
               <option value="Low Commode">Low Commode </option> 
               <option value="High Commode">High Commode</option>               
             </select>
@@ -222,6 +228,8 @@
             
 
             <div class="mt-3 form-group">
+              <p style="text-align: justify;">
+                <strong>Have you had any gastrointestinal surgery? </strong></p>
               <select required name="Did you have any intestinal surgery? " id="service"  style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -235,7 +243,7 @@
               border: 1px solid #ced4da;
               border-radius: .25rem;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                <option value="">Did you have any intestinal surgery? </option>
+                <option value="">Select</option>
                 <option value="Yes">Yes </option> 
                 <option value="No">No</option>               
               </select>
@@ -249,7 +257,7 @@
 
             <div class="form-group mt-3">
               <p style="text-align: justify;"><strong>What kind of probiotic foods have you eaten in the last 2 weeks? (Probiotic foods are made of good live bacteria and/or yeasts that naturally live in your body) 
-                <i class="text-info">(multiple selection available)</i></strong></p>
+                <i class="text-info">(Multiple options are permitted)</i></strong></p>
               <select name="What kind of probiotic foods have you eaten in the last 2 weeks?" id="service"  style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -278,20 +286,103 @@
               <div class="validate"></div>
             </div>
 
-            <div class="row mt-3">
-              <p style="text-align: justify;"> <strong>What are your daily eating habits (what kind of food do you eat most for breakfast, lunch, and dinner)?</strong></p>
-              <div class="col-md-4 form-group">
-                <input type="text" name="Breakfast" class="form-control" id="name" placeholder="Breakfast" required>
+
+            <div class="form-group mt-3">
+              <h5 style="text-align: justify;"> <strong>What are your daily eating habits 
+                (what kind of food do you eat most for breakfast, lunch, and dinner)? 
+                <i class="text-info">(Multiple options are permitted)</i></strong></h5> 
+                <p> <mark>What do you usually eat for breakfast?</mark> </p>               
+                <select name="What do you usually eat for breakfast?" required id="service"  style="display: block;
+                width: 100%;
+                height: calc(2em + .75rem + 2px);
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                 class="form-select" multiple size="3" aria-label=" select example">
+                  <option value="Rice">Rice </option> 
+                  <option value="Atta Roti">Atta Roti</option>               
+                  <option value="khichuri">khichuri</option>               
+                  <option value="Bread">Bread</option>               
+                  <option value="Fish">Fish</option>               
+                  <option value="Meat">Meat</option>               
+                  <option value="Chicken">Chicken</option>               
+                  <option value="Vegetables">Vegetables</option>
+                  <option value="Dal">Dal</option>   
+                  <option value="Egg">Egg</option>             
+                 </select>
+                <div class="validate"></div>
               </div>
-              <div class="col-md-4 form-group">
-                <input type="text" class="form-control" name="Launch" id="name" placeholder="Launch" required>
-              </div>
-              <div class="col-md-4 form-group">
-                <input type="text" class="form-control" name="Dinner" id="name" placeholder="Dinner" required>
-              </div>
-            </div>
+
+              <div class="form-group mt-3">
+                <p><mark>What do you usually eat for Launch?</mark></p>               
+                  <select name="What do you usually eat for Launch?" required id="service"  style="display: block;
+                  width: 100%;
+                  height: calc(2em + .75rem + 2px);
+                  padding: .375rem .75rem;
+                  font-size: 1rem;
+                  font-weight: 400;
+                  line-height: 1.5;
+                  color: #495057;
+                  background-color: #fff;
+                  background-clip: padding-box;
+                  border: 1px solid #ced4da;
+                  border-radius: .25rem;
+                  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                   class="form-select" multiple size="3" aria-label=" select example">
+                   <option value="Rice">Rice </option> 
+                   <option value="Atta Roti">Atta Roti</option>               
+                   <option value="khichuri">khichuri</option>               
+                   <option value="Bread">Bread</option>               
+                   <option value="Fish">Fish</option>               
+                   <option value="Meat">Meat</option>               
+                   <option value="Chicken">Chicken</option>               
+                   <option value="Vegetables">Vegetables</option>
+                   <option value="Dal">Dal</option>   
+                   <option value="Egg">Egg</option>             
+                   </select>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="form-group mt-3">
+                  <p ><mark>What do you usually eat for dinner?</mark></p>               
+                    <select name="What do you usually eat for dinner?" required id="service"  style="display: block;
+                    width: 100%;
+                    height: calc(2em + .75rem + 2px);
+                    padding: .375rem .75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #495057;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    border-radius: .25rem;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
+                     class="form-select" multiple size="3" aria-label=" select example">
+                     <option value="Rice">Rice </option> 
+                     <option value="Atta Roti">Atta Roti</option>               
+                     <option value="khichuri">khichuri</option>               
+                     <option value="Bread">Bread</option>               
+                     <option value="Fish">Fish</option>               
+                     <option value="Meat">Meat</option>               
+                     <option value="Chicken">Chicken</option>               
+                     <option value="Vegetables">Vegetables</option>
+                     <option value="Dal">Dal</option>   
+                     <option value="Egg">Egg</option>               
+                     </select>
+                    <div class="validate"></div>
+                  </div>
 
             <div class="mt-3 form-group">
+              <p style="text-align: justify;">
+                <strong>What kind of food is more in your daily diet? </strong></p>
               <select name="What kind of food is more in your daily diet? " id="service" required style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -305,7 +396,7 @@
               border: 1px solid #ced4da;
               border-radius: .25rem;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                <option value="">What kind of food is more in your daily diet? </option>
+                <option value="">Select</option>
                 <option value="Vegetables ">	Vegetables  </option> 
                 <option value="Fish ">Fish </option>               
                 <option value="Meat ">Meat </option>               
@@ -317,7 +408,7 @@
             <div class="form-group mt-3">
               <p style="text-align: justify;"><strong>Do you have any kind of processed food in your daily diet?(Processed food is a food item that has undergone multiple
                  mechanical or chemical processing to change or preserve the test.
-                 <i class="text-info">(multiple selection available)</i></strong></p>
+                 <i class="text-info">(Multiple options are permitted)</i></strong></p>
               <select name="Do you have any kind of processed food in your daily diet?" id="service"  style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -346,6 +437,8 @@
             </div>
 
             <div class="mt-3 form-group">
+              <p style="text-align: justify;">
+                <strong>Have you had diarrhea in the last one month?</strong></p>
               <select name="Have you had diarrhea in the last one month?" id="service" required style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -359,16 +452,17 @@
               border: 1px solid #ced4da;
               border-radius: .25rem;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                <option value="">Have you had diarrhea in the last one month? </option>
+                <option value=""> Select</option>
                 <option value="Yes">Yes </option> 
                 <option value="No">No</option>               
               </select>
               <div class="validate"></div>
             </div>
 
-            <div class="row mt-3">
-              <div class=" col-md-6 form-group">
-                <select name="Do you smoke? " id="service" required style="display: block;
+              <div class=" mt-3 form-group">
+                <p style="text-align: justify;">
+                  <strong>Do you smoke?</strong></p>
+                <select name=" " id="service" required style="display: block;
                 width: 100%;
                 height: calc(2em + .75rem + 2px);
                 padding: .375rem .75rem;
@@ -381,14 +475,16 @@
                 border: 1px solid #ced4da;
                 border-radius: .25rem;
                 transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                  <option value="">Do you smoke?  </option>
+                  <option value="">Select</option>
                   <option value="Yes">Yes </option> 
                   <option value="No">No</option>               
                 </select>
                 <div class="validate"></div>
               </div>
               
-            <div class=" col-md-6 form-group">
+            <div class="mt-3 form-group">
+              <p style="text-align: justify;">
+                <strong>Do you drink alcohol?  </strong></p>
               <select name="Do you drink alcohol?  " id="service" required style="display: block;
               width: 100%;
               height: calc(2em + .75rem + 2px);
@@ -402,16 +498,17 @@
               border: 1px solid #ced4da;
               border-radius: .25rem;
               transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-                <option value="">Do you drink alcohol?  </option>
+                <option value="">Select</option>
                 <option value="Yes">Yes </option> 
                 <option value="No">No</option>               
               </select>
               <div class="validate"></div>
             </div>
-          </div>
 
 
           <div class=" mt-3 form-group">
+            <p style="text-align: justify;">
+              <strong>In the list below, select which disease you have?</strong></p>
             <select name=" In the list below, select which disease you have." id="service"  style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -425,7 +522,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">In the list below, select which disease you have.</option>
+              <option value="">Select</option>
               <option value="Colon Cancer">Colon Cancer</option> 
               <option value="	Inflammatory Bowel Disease (IBD)">	Inflammatory Bowel Disease (IBD)</option>               
               <option value="Irritable Bowel Syndrome (IBS)">	Irritable Bowel Syndrome (IBS)</option>
@@ -442,7 +539,9 @@
 
         
          <div class="mt-3  form-group">
-            <select name="ave you had any cancer before?" id="service" required style="display: block;
+          <p style="text-align: justify;">
+            <strong>Have you had any cancer before?</strong></p>
+            <select name="Have you had any cancer before?" id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
             padding: .375rem .75rem;
@@ -455,7 +554,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">Have you had any cancer before?</option>
+              <option value="">Select</option>
               <option value="Yes">Yes </option> 
               <option value="No">No</option>               
             </select>
@@ -469,16 +568,38 @@
           </div>
         
           <div class="mt-3 form-group mt-3">
-            <input type="text" class="form-control" name="Are you currently receiving treatment in hospital or from home?" id="subject" 
-            placeholder="Are you currently receiving treatment in hospital or from home?" >
+            <p style="text-align: justify;">
+              <strong>Are you currently receiving treatment in a hospital or at home?</strong></p>
+            <select name="Are you currently receiving treatment in a hospital or at home?" id="service" required style="display: block;
+            width: 100%;
+            height: calc(2em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
+              <option value="">Select</option>
+              <option value="Hospital">Hospital </option> 
+              <option value="Home">Home</option>               
+            </select>
+            <div class="validate"></div>
           </div>
 
           <div class="mt-3 form-group mt-3">
-            <input type="text" class="form-control" name="How long have you been hospitalized after being diagnosed" id="subject" 
-            placeholder="How long have you been hospitalized after being diagnosed" >
+            <p style="text-align: justify;">
+              <strong>How long have you been hospitalized after being diagnosed</strong></p>
+            <input type="number" class="form-control" name="How long have you been hospitalized after being diagnosed" id="subject" 
+            placeholder="" >
           </div>
 
           <div class="mt-3 form-group">
+            <p style="text-align: justify;">
+              <strong>We will take your medical details. Would you agree?</strong></p>
             <select name="We will take your medical details. Would you agree? " id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -492,7 +613,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">We will take your medical details. Would you agree?</option>
+              <option value="">Select</option>
               <option value="Yes">Yes </option> 
               <option value="No">No</option>               
             </select>
@@ -500,6 +621,8 @@
           </div>
 
           <div class="mt-3  form-group">
+            <p style="text-align: justify;">
+              <strong>Have you had any chemotherapy before?</strong></p>
             <select name="Have you had any chemotherapy before? " id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -513,7 +636,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">Have you had any chemotherapy before?</option>
+              <option value="">Select</option>
               <option value="Yes">Yes </option> 
               <option value="No">No</option>               
             </select>
@@ -527,6 +650,8 @@
           </div>
 
           <div class="mt-3  form-group">
+            <p style="text-align: justify;">
+              <strong>What kind of water do you drink?</strong></p>
             <select name="What kind of water do you drink? " id="service" required style="display: block;
             width: 100%;
             height: calc(2em + .75rem + 2px);
@@ -540,7 +665,7 @@
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
-              <option value="">What kind of water do you drink?</option>
+              <option value="">Select</option>
               <option value="Tubewell">Tubewell </option> 
               <option value="Boiled Water">Boiled Water</option>               
               <option value="Filtered water ">Filtered water </option>               
