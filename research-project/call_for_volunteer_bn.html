@@ -84,37 +84,51 @@
             
         
             <div class=" form-group">
-              <input type="text" name="Name" class="form-control" id="name" placeholder="নাম" minlength="4" required />
+              <p style="text-align: justify;">
+                <strong>নাম</strong></p>
+              <input type="text" name="Name" class="form-control" id="name" placeholder="" minlength="4" required />
               <div class="validate"></div>
             </div>
 
             <div class="mt-3 form-group">
-              <input type="email" class="form-control" name="Email" id="email" placeholder="ই-মেইল"  required 
+              <p style="text-align: justify;">
+                <strong>ই-মেইল</strong></p>
+              <input type="email" class="form-control" name="Email" id="email" placeholder=""  required 
               data-rule="email" data-msg="Please enter a valid email" />
               <div class="validate"></div>
             </div>
                          
               <div class="mt-3 form-group">
-                <input type="tel" name="phone" class="form-control" id="phone" placeholder="মোবাইল নাম্বার " required>
+                <p style="text-align: justify;">
+                  <strong>মোবাইল নাম্বার</strong></p>
+                <input type="tel" name="phone" class="form-control" id="phone" placeholder=" " required>
               </div>
 
               <div class="mt-3 form-group">
-                <input type="text" class="form-control" name="address" id="name" placeholder="বর্তমান ঠিকানা" required>
+                <p style="text-align: justify;">
+                  <strong>বর্তমান ঠিকানা</strong></p>
+                <input type="text" class="form-control" name="address" id="name" placeholder="" required>
               </div>
             
 
             <div class="row mt-3">
               <div class="col-md-6 form-group">
-                <input type="text" name="age" class="form-control" id="name" placeholder="বয়স" required>
+                <p style="text-align: justify;">
+                  <strong>বয়স</strong></p>
+                <input type="text" name="age" class="form-control" id="name" placeholder="" required>
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="occupation" id="name" placeholder="পেশা" required>
+                <p style="text-align: justify;">
+                  <strong>পেশা</strong></p>
+                <input type="text" class="form-control" name="occupation" id="name" placeholder="" required>
               </div>
             </div>
 
             
             <div class="mt-3 form-group">
-              <input type="text" name="weight" class="form-control" id="name" placeholder="ওজন (কেজি)" required>
+              <p style="text-align: justify;">
+                <strong>ওজন (কেজি)</strong></p>
+              <input type="text" name="weight" class="form-control" id="name" placeholder="" required>
             </div>
 
             <div class="row mt-3">
@@ -129,8 +143,10 @@
             
            
             <div class="mt-3 form-group mt-3">
+              <p style="text-align: justify;">
+                <strong>আপনার পরিবারের সদস্য কয়জন?</strong></p>
               <input type="number" class="form-control" name="Number of Family Members" id="subject" 
-              placeholder=" আপনার পরিবারের সদস্য কয়জন?" required>
+              placeholder=" " required>
             </div>
 
             <div class="mt-3 form-group">
@@ -212,19 +228,25 @@
           </div>
          
           <div class="mt-3 form-group mt-3">
+            <p style="text-align: justify;">
+              <strong>আপনি দিনে কতবার মলত্যাগ করেন?</strong></p>
             <input type="number" class="form-control" name="How many times a day do you defecate?" id="subject" 
-            placeholder="আপনি দিনে কতবার মলত্যাগ করেন?" required>
+            placeholder="" required>
           </div>
            
             <div class="form-group mt-3">
+              <p style="text-align: justify;">
+                <strong>বিগত ৩ মাসের চিকিৎসা সংক্রান্ত বিবরণ দিন - </strong></p>
               <textarea class="form-control" style="text-align: justify;" name="Your medical history of last 3 months" rows="5" 
-              placeholder="বিগত ৩ মাসের চিকিৎসা সংক্রান্ত বিবরণ দিন - (আপনি গত ৩ মাসের মধ্যে কি কি ধরনের ওষূধ নিয়েছেন বা এখনো নিচ্ছেন সেই ওষুধ গুলোর নাম লিখুন। কোন ধরনের অপারেশন হয়ে থাকলে সেটিও লিখুন। )
+              placeholder="(আপনি গত ৩ মাসের মধ্যে কি কি ধরনের ওষূধ নিয়েছেন বা এখনো নিচ্ছেন সেই ওষুধ গুলোর নাম লিখুন। কোন ধরনের অপারেশন হয়ে থাকলে সেটিও লিখুন। )
               " ></textarea>
             </div>
 
             <div class="form-group mt-3">
+              <p style="text-align: justify;">
+                <strong>গত ৩ মাসের মধ্যে আপনি যদি উচ্চ মাত্রার কোন এন্টিবায়োটিক/পেইন কিলার নিয়ে থাকেন এবং নিলে কেন নিয়েছেন তা অবশ্যই লিখতে ভুলবেন না।</strong></p>
               <textarea class="form-control" style="text-align: justify;" name="(If you have taken a high dose of antibiotic / pain killer in the last 3 months, be sure to write down why you took it)" rows="5" 
-              placeholder="গত ৩ মাসের মধ্যে আপনি যদি উচ্চ মাত্রার কোন এন্টিবায়োটিক/পেইন কিলার নিয়ে থাকেন এবং নিলে কেন নিয়েছেন তা অবশ্যই লিখতে ভুলবেন না।" ></textarea>
+              placeholder="" ></textarea>
             </div>
             
 
@@ -305,16 +327,17 @@
                 border-radius: .25rem;
                 transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
                  class="form-select" multiple size="3" aria-label=" select example">
-                  <option value="ভাত">ভাত </option> 
-                  <option value="রুটি">রুটি</option>               
-                  <option value="খিচুড়ি">খিচুড়ি</option>               
-                  <option value="পাউরুটি">পাউরুটি</option>               
-                  <option value="মাছ">মাছ</option>               
-                  <option value="মাংস">মাংস</option>               
-                  <option value="মাংস">চিকেন</option>               
-                  <option value="শাক-সবজি">শাক-সবজি</option>
-                  <option value="ডাল">ডাল</option>   
-                  <option value="ডাল">ডিম</option>             
+                  <option value="Rice">ভাত </option> 
+                  <option value="Atta Roti">রুটি</option>               
+                  <option value="khichuri">খিচুড়ি</option>               
+                  <option value="Bread">পাউরুটি</option>               
+                  <option value="Fish">মাছ</option>               
+                  <option value="Meat">মাংস</option>               
+                  <option value="Chicken">চিকেন</option>               
+                  <option value="Vegetables">শাক-সবজি</option>
+                  <option value="Dal">ডাল</option>   
+                  <option value="Egg">ডিম</option>             
+                  <option value="Milk">দুধ </option>             
                  </select>
                 <div class="validate"></div>
               </div>
@@ -335,16 +358,17 @@
                   border-radius: .25rem;
                   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
                    class="form-select" multiple size="3" aria-label=" select example">
-                    <option value="ভাত">ভাত </option> 
-                    <option value="রুটি">রুটি</option>               
-                    <option value="খিচুড়ি">খিচুড়ি</option>               
-                    <option value="পাউরুটি">পাউরুটি</option>               
-                    <option value="মাছ">মাছ</option>               
-                    <option value="মাংস">মাংস</option>               
-                    <option value="মাংস">চিকেন</option>               
-                    <option value="শাক-সবজি">শাক-সবজি</option>
-                    <option value="ডাল">ডাল</option>   
-                    <option value="ডাল">ডিম</option>             
+                   <option value="Rice">ভাত </option> 
+                   <option value="Atta Roti">রুটি</option>               
+                   <option value="khichuri">খিচুড়ি</option>               
+                   <option value="Bread">পাউরুটি</option>               
+                   <option value="Fish">মাছ</option>               
+                   <option value="Meat">মাংস</option>               
+                   <option value="Chicken">চিকেন</option>               
+                   <option value="Vegetables">শাক-সবজি</option>
+                   <option value="Dal">ডাল</option>   
+                   <option value="Egg">ডিম</option>             
+                   <option value="Milk">দুধ </option>             
                    </select>
                   <div class="validate"></div>
                 </div>
@@ -365,16 +389,17 @@
                     border-radius: .25rem;
                     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;height: calc(11em + 0.75rem + 5px);"
                      class="form-select" multiple size="3" aria-label=" select example">
-                      <option value="ভাত">ভাত </option> 
-                      <option value="রুটি">রুটি</option>               
-                      <option value="খিচুড়ি">খিচুড়ি</option>               
-                      <option value="পাউরুটি">পাউরুটি</option>               
-                      <option value="মাছ">মাছ</option>               
-                      <option value="মাংস">মাংস</option>               
-                      <option value="মাংস">চিকেন</option>               
-                      <option value="শাক-সবজি">শাক-সবজি</option>
-                      <option value="ডাল">ডাল</option>               
-                      <option value="ডাল">ডিম</option>               
+                     <option value="Rice">ভাত </option> 
+                     <option value="Atta Roti">রুটি</option>               
+                     <option value="khichuri">খিচুড়ি</option>               
+                     <option value="Bread">পাউরুটি</option>               
+                     <option value="Fish">মাছ</option>               
+                     <option value="Meat">মাংস</option>               
+                     <option value="Chicken">চিকেন</option>               
+                     <option value="Vegetables">শাক-সবজি</option>
+                     <option value="Dal">ডাল</option>   
+                     <option value="Egg">ডিম</option>             
+                     <option value="Milk">দুধ </option>                
                      </select>
                     <div class="validate"></div>
                   </div>
@@ -533,7 +558,7 @@
               <option value="Constipation">Constipation</option>
               <option value="Hemorrhoids">Hemorrhoids</option>
               <option value="	Diverticular Disease">	Diverticular Disease</option>
-              <option value="	Diverticular Disease">None</option>
+              <option value="	None">None</option>
             </select>
             <div class="validate"></div>
           </div>
@@ -585,8 +610,8 @@
             border-radius: .25rem;
             transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;" >
               <option value="">নির্বাচন করুন</option>
-              <option value="হাসপাতাল">হাসপাতাল </option> 
-              <option value="বাসায়">বাসায়</option>               
+              <option value="Hospital">হাসপাতাল </option> 
+              <option value="Home">বাসায়</option>               
             </select>
             <div class="validate"></div>
           </div>
@@ -716,7 +741,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://r1ridwan.github.io/myresume/">Md. Ridwan Ahmed</a>
         </div>
       </div>
       
