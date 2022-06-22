@@ -84,37 +84,44 @@
             
         
             <div class=" form-group">
-              <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" minlength="4" required />
+              <p style="text-align: justify;"><strong>Name</strong></p>
+              <input type="text" name="Name" class="form-control" id="name" placeholder="" minlength="4" required />
               <div class="validate"></div>
             </div>
 
             <div class="mt-3 form-group">
-              <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email"  required 
+              <p style="text-align: justify;"><strong>E-mail</strong></p>
+              <input type="email" class="form-control" name="Email" id="email" placeholder=""  required 
               data-rule="email" data-msg="Please enter a valid email" />
               <div class="validate"></div>
             </div>
                          
               <div class="mt-3 form-group">
-                <input type="tel" name="phone" class="form-control" id="phone" placeholder="Mobile" required>
+                <p style="text-align: justify;"><strong>Phone</strong></p>
+                <input type="tel" name="phone" class="form-control" id="phone" placeholder="" required>
               </div>
 
               <div class="mt-3 form-group">
-                <input type="text" class="form-control" name="address" id="name" placeholder="Your Address" required>
+                <p style="text-align: justify;"><strong>Your Address</strong></p>
+                <input type="text" class="form-control" name="address" id="name" placeholder="" required>
               </div>
             
 
             <div class="row mt-3">
               <div class="col-md-6 form-group">
-                <input type="text" name="age" class="form-control" id="name" placeholder="Age" required>
+                <p style="text-align: justify;"><strong>Age</strong></p>
+                <input type="text" name="age" class="form-control" id="name" placeholder="" required>
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="occupation" id="name" placeholder="Occupation" required>
+                <p style="text-align: justify;"><strong>Occupation</strong></p>
+                <input type="text" class="form-control" name="occupation" id="name" placeholder="" required>
               </div>
             </div>
 
             
             <div class="mt-3 form-group">
-              <input type="text" name="weight" class="form-control" id="name" placeholder="Weight (kg)" required>
+              <p style="text-align: justify;"><strong>Weight (kg)</strong></p>
+              <input type="text" name="weight" class="form-control" id="name" placeholder="" required>
             </div>
 
             <div class="row mt-3">
@@ -129,8 +136,9 @@
             
            
             <div class="mt-3 form-group mt-3">
+              <p style="text-align: justify;"><strong>Number of Family Members</strong></p>
               <input type="number" class="form-control" name="Number of Family Members" id="subject" 
-              placeholder="Number of Family Members" required>
+              placeholder="" required>
             </div>
 
             <div class="mt-3 form-group">
@@ -212,18 +220,22 @@
           </div>
          
           <div class="mt-3 form-group mt-3">
+            <p style="text-align: justify;"><strong>How many times a day do you defecate?</strong></p>
             <input type="number" class="form-control" name="How many times a day do you defecate?" id="subject" 
-            placeholder="How many times a day do you defecate?" required>
+            placeholder="" required>
           </div>
            
             <div class="form-group mt-3">
+              <p style="text-align: justify;"><strong>Your medical history of last 3 months. Write down the names of the medicines 
+                you have taken or are still taking in the last 3 months. Write down if there is any kind of operation</strong></p>
               <textarea class="form-control" style="text-align: justify;" name="Your medical history of last 3 months" rows="5" 
-              placeholder="Your medical history of last 3 months. Write down the names of the medicines you have taken or are still taking in the last 3 months. Write down if there is any kind of operation" ></textarea>
+              placeholder="" ></textarea>
             </div>
 
             <div class="form-group mt-3">
+              <p style="text-align: justify;"><strong>If you have taken a high dose of antibiotic / pain killer in the last 3 months, be sure to write down why you took it</strong></p>
               <textarea class="form-control" style="text-align: justify;" name="(If you have taken a high dose of antibiotic / pain killer in the last 3 months, be sure to write down why you took it)" rows="5" 
-              placeholder="(If you have taken a high dose of antibiotic / pain killer in the last 3 months, be sure to write down why you took it)" ></textarea>
+              placeholder="" ></textarea>
             </div>
             
 
@@ -481,6 +493,12 @@
                 </select>
                 <div class="validate"></div>
               </div>
+
+              <div class="form-group mt-3">
+                <p style="text-align: justify;"><strong>How long have you been smoking?</strong></p>
+                  <input type="number" class="form-control" name="How long have you been smoking?" id="name" placeholder="in years" required>
+                
+              </div>
               
             <div class="mt-3 form-group">
               <p style="text-align: justify;">
@@ -503,6 +521,13 @@
                 <option value="No">No</option>               
               </select>
               <div class="validate"></div>
+            </div>
+
+            <div class="form-group mt-3">
+              <p style="text-align: justify;"><strong>How long have you been drinking alcohol?</strong></p>
+                <input type="number" class="form-control" name="HHow long have you been drinking alcohol?" 
+                id="name" placeholder="in years" required>
+              
             </div>
 
 
@@ -532,7 +557,12 @@
               <option value="Constipation">Constipation</option>
               <option value="Hemorrhoids">Hemorrhoids</option>
               <option value="	Diverticular Disease">	Diverticular Disease</option>
-              <option value="	Diverticular Disease">	None</option>
+              <option value="	Diabetes">Diabetes</option>
+              <option value="	Hypertension">Hypertension</option>
+              <option value="Allergy">Allergy</option>
+              <option value="	Asthma">Asthma</option>
+              <option value="	Coronary heart disease">Coronary heart disease</option>
+              <option value="	none">	None</option>
             </select>
             <div class="validate"></div>
           </div>
@@ -563,7 +593,19 @@
 
           <div class=" mt-3 form-group mt-3">
             <p style="text-align: justify;"><strong>Have you been diagnosed with colon cancer? Please mention the date of diagnosis?</strong></p>
-            <input type="date" class="form-control" name="Have you been diagnosed with colon cancer? Please mention the date of diagnosis?" id="subject" 
+            <input type="text" class="form-control" name="Have you been diagnosed with colon cancer? Please mention the date of diagnosis?" id="subject" 
+            placeholder="" >
+          </div>
+
+          <div class=" mt-3 form-group mt-3">
+            <p style="text-align: justify;"><strong>The type of colon cancer you have diagnosed?</strong></p>
+            <input type="text" class="form-control" name="The type of colon cancer you have diagnosed?" id="subject" 
+            placeholder="" >
+          </div>
+
+          <div class=" mt-3 form-group mt-3">
+            <p style="text-align: justify;"><strong>The stage of colon cancer you have diagnosed?</strong></p>
+            <input type="date" class="form-control" name="The stage of colon cancer you have diagnosed?" id="subject" 
             placeholder="" >
           </div>
         
